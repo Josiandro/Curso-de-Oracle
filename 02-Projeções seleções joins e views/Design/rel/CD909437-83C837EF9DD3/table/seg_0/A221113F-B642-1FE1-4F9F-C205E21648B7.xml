@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A221113F-B642-1FE1-4F9F-C205E21648B7" schemaObject="4622D5EA-B98A-518D-E228-F8DA8B0EC459" name="TABELA_DE_PRODUTOS">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TABELA_DE_PRODUTOS</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:50 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_DO_PRODUTO" id="99A6BEA6-E61A-0F61-2F32-55D17448FFB2">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>TABELA_DE_PRODUTOS</sourceObjSchema>
+<sourceObjName>CODIGO_DO_PRODUTO</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:50 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_DO_PRODUTO" id="9046E4A5-FE36-A526-1478-1C2351FB355C">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>TABELA_DE_PRODUTOS</sourceObjSchema>
+<sourceObjName>NOME_DO_PRODUTO</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:50 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMBALAGEM" id="1E147705-B91C-6645-DFD3-18F14655D33C">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>TABELA_DE_PRODUTOS</sourceObjSchema>
+<sourceObjName>EMBALAGEM</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:50 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAMANHO" id="CBA7A079-8E95-72C9-4E80-9C5D7C43BBC3">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>TABELA_DE_PRODUTOS</sourceObjSchema>
+<sourceObjName>TAMANHO</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:50 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SABOR" id="87074D2E-9977-AF63-FEF0-FFAB3366E2F9">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>TABELA_DE_PRODUTOS</sourceObjSchema>
+<sourceObjName>SABOR</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:50 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECO_DE_LISTA" id="DEFD1782-9B5D-BA88-882A-92939EB7903C">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>TABELA_DE_PRODUTOS</sourceObjSchema>
+<sourceObjName>PRECO_DE_LISTA</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:50 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5E0B39D-19BD-F5F3-04BE-63AF6EE72ECB" name="PK_TABELA_DE_PRODUTOS">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_PRODUTOS</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:50 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99A6BEA6-E61A-0F61-2F32-55D17448FFB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBE7D6A1-DE15-B165-C785-220E28CFD3C7" schemaObject="4622D5EA-B98A-518D-E228-F8DA8B0EC459" name="PK_TABELA_DE_PRODUTOS">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_PRODUTOS</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:50 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99A6BEA6-E61A-0F61-2F32-55D17448FFB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

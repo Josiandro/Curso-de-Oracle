@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="906E8E96-7491-02F9-291E-C9A7E40681F0" schemaObject="4622D5EA-B98A-518D-E228-F8DA8B0EC459" name="ITENS_NOTAS_FISCAIS">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>ITENS_NOTAS_FISCAIS</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:02:40 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO" id="D36D4069-0001-4F2A-D761-F75BFF1DED87">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>ITENS_NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>NUMERO</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:02:40 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C971C726-701F-6DC8-4414-28248FE5D03E" referredColumn="29B0CDFC-B218-B8A0-A8E0-C73C5A28E97D"/>
+</associations>
+</Column>
+<Column name="CODIGO_DO_PRODUTO" id="06897C22-79C9-1FE2-E9E0-2F421331B76A">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>ITENS_NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>CODIGO_DO_PRODUTO</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:02:40 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="973B99C9-FC4C-9491-28DE-6EA63A0F5DC9" referredColumn="99A6BEA6-E61A-0F61-2F32-55D17448FFB2"/>
+</associations>
+</Column>
+<Column name="QUANTIDADE" id="A34D1990-7F3C-EF38-3DE7-7BAEB71E8596">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>ITENS_NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>QUANTIDADE</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:02:40 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECO" id="92CC6C30-D0EA-96D1-FF3F-8CCEC71A14AC">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>ITENS_NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>PRECO</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:02:40 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B6E6B5E-E55C-1157-D95C-CA8074504742" name="PK_ITENS_NOTAS_FISCAIS">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_ITENS_NOTAS_FISCAIS</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:02:40 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D36D4069-0001-4F2A-D761-F75BFF1DED87"/>
+<colUsage columnID="06897C22-79C9-1FE2-E9E0-2F421331B76A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D56E1880-9D43-BBA9-8661-AC38858769FB" schemaObject="4622D5EA-B98A-518D-E228-F8DA8B0EC459" name="PK_ITENS_NOTAS_FISCAIS">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_ITENS_NOTAS_FISCAIS</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:02:40 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D36D4069-0001-4F2A-D761-F75BFF1DED87"/>
+<colUsage columnID="06897C22-79C9-1FE2-E9E0-2F421331B76A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90F88B47-C11B-C403-6F28-F33217ECC981" name="FK_ITENS_NOTAS_FISCAIS1">
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:02:40 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06897C22-79C9-1FE2-E9E0-2F421331B76A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD20A926-D623-1B5E-82F6-B3CE6A7E0A7C" name="FK_ITENS_NOTAS_FISCAIS2">
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:02:40 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D36D4069-0001-4F2A-D761-F75BFF1DED87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

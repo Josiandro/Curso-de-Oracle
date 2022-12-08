@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C971C726-701F-6DC8-4414-28248FE5D03E" containerWithKeyObject="906E8E96-7491-02F9-291E-C9A7E40681F0" localFKIndex="DD20A926-D623-1B5E-82F6-B3CE6A7E0A7C" name="FK_ITENS_NOTAS_FISCAIS2">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>FK_ITENS_NOTAS_FISCAIS2</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:02:40 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<referredTableLongName>SYSTEM.NOTAS_FISCAIS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>92003C51-B31A-767D-1629-B53FDD98611D</referredTableID>
+<keyObject>285CF3D3-C4BA-93F4-82B9-FBCB08F39C92</keyObject>
+<referredKeyID>285CF3D3-C4BA-93F4-82B9-FBCB08F39C92</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NUMERO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

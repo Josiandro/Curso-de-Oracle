@@ -1,0 +1,10 @@
+- Exibir
+- Datamodeler
+- Browse
+
+- Clicar em modelo relacional
+- Botão direito, novo modelo relacional
+
+- Clicar nas tabelas que tem no banco e arrastar para a direita
+- Tabela que possuem relacionamento, vão exibir suas ligações
+

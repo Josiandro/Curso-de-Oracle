@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93052E28-DBD2-5A24-43B5-D655DDE7E0DE" schemaObject="4622D5EA-B98A-518D-E228-F8DA8B0EC459" name="TABELA_DE_VENDEDORES">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TABELA_DE_VENDEDORES</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MATRICULA" id="4639A862-3AD3-DE33-BE7B-B8118026CEB8">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>MATRICULA</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="2E5CED51-1B09-BFB6-DA0A-966A60E918C9">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERCENTUAL_COMISSAO" id="4CF316E6-D934-30FB-89BC-34EEC81C9A54">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>PERCENTUAL_COMISSAO</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_ADMISSAO" id="6FCF7D79-5F8A-B5BB-9DCA-FEB5B9264B6B">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>DATA_ADMISSAO</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DE_FERIAS" id="9DC6EBD7-BA3F-6775-C6CA-E560889DF63B">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>DE_FERIAS</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAIRRO" id="9B139CFC-05E6-8F45-57D8-5C06861098A9">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>BAIRRO</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC846C4C-0BE4-DA91-6D9A-234AD0C6A510" name="PK_TABELA_DE_VENDEDORES">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_VENDEDORES</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:15 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4639A862-3AD3-DE33-BE7B-B8118026CEB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03109DBB-7CDB-C136-F532-6610FBBE7224" schemaObject="4622D5EA-B98A-518D-E228-F8DA8B0EC459" name="PK_TABELA_DE_VENDEDORES">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_VENDEDORES</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4639A862-3AD3-DE33-BE7B-B8118026CEB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

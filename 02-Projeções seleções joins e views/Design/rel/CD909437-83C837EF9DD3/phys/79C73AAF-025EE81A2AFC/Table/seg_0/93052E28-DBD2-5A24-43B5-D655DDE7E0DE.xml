@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TABELA_DE_VENDEDORES" directorySegmentName="seg_0" id="93052E28-DBD2-5A24-43B5-D655DDE7E0DE">
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<schemaObject>4622D5EA-B98A-518D-E228-F8DA8B0EC459</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C89E8D20-3863-B2BD-9F45-D02F4A5F7AD7</segment>
+<tableSpace>A6B042E4-525B-F7D3-F15E-5F4BC90B9B9D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOME" id="2E5CED51-1B09-BFB6-DA0A-966A60E918C9">
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MATRICULA" id="4639A862-3AD3-DE33-BE7B-B8118026CEB8">
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERCENTUAL_COMISSAO" id="4CF316E6-D934-30FB-89BC-34EEC81C9A54">
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_ADMISSAO" id="6FCF7D79-5F8A-B5BB-9DCA-FEB5B9264B6B">
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BAIRRO" id="9B139CFC-05E6-8F45-57D8-5C06861098A9">
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DE_FERIAS" id="9DC6EBD7-BA3F-6775-C6CA-E560889DF63B">
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_TABELA_DE_VENDEDORES" id="03109DBB-7CDB-C136-F532-6610FBBE7224">
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:14 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<schemaObject>4622D5EA-B98A-518D-E228-F8DA8B0EC459</schemaObject>
+<segment>41816FED-466D-60A2-9E7A-356CDA32340F</segment>
+<tableSpace>A6B042E4-525B-F7D3-F15E-5F4BC90B9B9D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TABELA_DE_VENDEDORES" id="AC846C4C-0BE4-DA91-6D9A-234AD0C6A510">
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:00:15 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<segment>41816FED-466D-60A2-9E7A-356CDA32340F</segment>
+<tableSpace>A6B042E4-525B-F7D3-F15E-5F4BC90B9B9D</tableSpace>
+<existingIndex>03109DBB-7CDB-C136-F532-6610FBBE7224</existingIndex>
+<indexSegment>41816FED-466D-60A2-9E7A-356CDA32340F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

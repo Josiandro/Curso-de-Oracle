@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="973B99C9-FC4C-9491-28DE-6EA63A0F5DC9" containerWithKeyObject="906E8E96-7491-02F9-291E-C9A7E40681F0" localFKIndex="90F88B47-C11B-C403-6F28-F33217ECC981" name="FK_ITENS_NOTAS_FISCAIS1">
+<sourceConnName>CONEX%C3%83O+M%C3%81QUINA+LOCAL</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>FK_ITENS_NOTAS_FISCAIS1</sourceObjName>
+<createdBy>josia</createdBy>
+<createdTime>2022-12-07 17:02:40 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<referredTableLongName>SYSTEM.TABELA_DE_PRODUTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A221113F-B642-1FE1-4F9F-C205E21648B7</referredTableID>
+<keyObject>FBE7D6A1-DE15-B165-C785-220E28CFD3C7</keyObject>
+<referredKeyID>FBE7D6A1-DE15-B165-C785-220E28CFD3C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_DO_PRODUTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

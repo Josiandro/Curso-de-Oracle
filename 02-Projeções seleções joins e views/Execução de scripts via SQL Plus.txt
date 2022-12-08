@@ -1,0 +1,19 @@
+Execução de scripts via SQL Plus
+
+- Abrir o CMD
+- Digitar sqlplus e teclar enter
+- Informar o usuário e senha
+- Processo concluído
+
+----------------------------------------------------------------------------------------
+Execução de um arquivo .sql via SQL Plus
+
+- Digitar o @, seguido do caminho do arquivo e depois dar enter
+- @C:\Users\josia\Desktop\Oracle\Arquivos\Criacao_Esquema.sql
+- No final, é preciso dar commit para confirmar as alterações
+- Escreve-se o comando commit seguido de enter, depois digita-se / e da enter novamente
+
+----------------------------------------------------------------------------------------
+O comando EXIT fecha/desconecta o banco
+
+- EXIT

@@ -1,4 +1,4 @@
--- Selecina todos os campos da tabela
+-- Seleciona todos os campos da tabela
 SELECT * FROM TABELA_DE_VENDEDORES;
 
 --------------------------------------------------------------------------------

@@ -103,3 +103,19 @@ SELECT ABS(-10) FROM DUAL;
 SELECT MOD(10,6) FROM DUAL;
 
 --------------------------------------------------------------------------------
+
+-- Na tabela de notas fiscais, temos o valor do imposto. Já na tabela de itens, 
+-- temos a quantidade e o faturamento. Calcule o valor do imposto pago no ano de
+-- 2016, arredondando para o menor inteiro.
+SELECT 
+    TO_CHAR(NF.DATA_VENDA, 'YYYY') AS ANO_VENDA,
+    'R$ ' || FLOOR(SUM(NF.IMPOSTO * (IT.PRECO * IT.QUANTIDADE))) AS IMPOSTO_PAGO
+FROM
+    NOTAS_FISCAIS NF
+INNER JOIN
+    ITENS_NOTAS_FISCAIS IT
+ON NF.NUMERO = IT.NUMERO
+WHERE TO_CHAR(NF.DATA_VENDA, 'YYYY') = 2016
+GROUP BY TO_CHAR(NF.DATA_VENDA, 'YYYY');
+
+--------------------------------------------------------------------------------

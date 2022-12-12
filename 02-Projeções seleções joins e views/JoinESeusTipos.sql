@@ -1,0 +1,1 @@
+-- Artigo Alura: https://www.alura.com.br/artigos/join-e-seus-tipos
